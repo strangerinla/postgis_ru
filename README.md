@@ -6,9 +6,9 @@ This project includes DOCKERFILE and some other stuff to create [Docker](https:/
 
 Run `up.bat` from any location to build and run the container.
 
-The folder `data` will be created if it does not exists.
+The folder `./data` will be created if it does not exists.
 
-Use `init` directory to store initialization script sql files. They will be executed in alphabetical order if the `data` directory does not exist. 
+Use the `./init` directory to store initialization script sql files. They will be executed in alphabetical order if the `./data` directory does not exist. 
 
 # Versions
 
